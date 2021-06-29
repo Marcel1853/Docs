@@ -8,26 +8,7 @@ module.exports = {
   favicon: 'https://cdn.g-works.eu/img/gworks/logo.png',
   organizationName: 'GWorks',
   projectName: 'Docs',
-  i18n: {
-    defaultLocale: 'de',
-    locales: ['de', 'en'],
-    localeConfigs: {
-      en: {
-        label: 'English',
-      },
-      de: {
-        label: 'Deutsch',
-      },
-    },
-  },
   plugins: [
-    [
-        require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-          indexPages: true,
-          language: "de",
-      }
-    ],
     [
       '@docusaurus/plugin-sitemap',
       {
