@@ -2,4 +2,5 @@
 
 
 * [HOME](./)
-* [About](./about/index)
+* [GWorks ID](./gworks-id/index)
+* [Satou-Chan Discord Bot](./satoubot/index)
