@@ -36,6 +36,12 @@ module.exports = {
       },
       items: [
         {
+          to: 'docs/WelcomePage/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
