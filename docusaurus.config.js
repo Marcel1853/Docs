@@ -37,35 +37,6 @@ module.exports = {
         trailingSlash: false,
       },
     ],
-    [
-      '@docusaurus/plugin-pwa',
-      {
-        debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-          'mobile',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/puhhosting.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(134, 37, 194)',
-          },
-        ],
-      },
-    ],
   ],
   themeConfig: {
     googleAnalytics: {

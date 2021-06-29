@@ -9,31 +9,31 @@ import Translate from '@docusaurus/Translate';
 
 const features = [
   {
-    title: 'Antworten zu Kundenfragen',
+    title: 'Answers to the mst questions',
     imageUrl: 'img/undraw-faq.svg',
     description: (
       <>
         <Translate description="The homepage main heading">
-          PuhFAQ ist ein Wikipedia, indem man Antworten zu beliebten Kundenfragen finden kann.
+          At the GWorks docs you can find many answers to questions like: How to use GWorks ID in your own Project?
         </Translate>
       </>
     ),
   },
   {
-    title: 'Viele Anleitungen',
+    title: 'Many instructions',
     imageUrl: 'img/undraw-tutorial.svg',
     description: (
       <>
-        Hier Bei PuhFAQ findest du auch Anleitungen, wie zum beispiel das verbinden einer Domain bei einer Website. Duchstöber doch mal <code>FAQ</code> um eine Passende Anleitung zu finden.
+        Here you can find many instructions to our projects and how to use them.
       </>
     ),
   },
   {
-    title: 'Über PuhHosting',
+    title: 'Who we are',
     imageUrl: 'img/undraw-free.svg',
     description: (
       <>
-        PuhHosting ist dein Hoster, wenn es um Kostenlose Produkte geht.
+        We are a group of developer, who have fun with their work. We are a community, where everyone can join and work with us.
       </>
     ),
   },
@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              PuhFAQ durchstöbern
+              View Documentation
             </Link>
           </div>
         </div>
