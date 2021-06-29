@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'PuhHosting FAQ',
-  tagline: 'Der Ort für deine Antworten',
-  url: 'https://faq.puh.hosting',
+  title: 'GWorks Docs',
+  tagline: 'The Place for help',
+  url: 'https://docs.g-works.eu',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://cdn.puh.hosting/puhhosting/favicon/favicon-16x16.png',
-  organizationName: 'PuhHosting',
-  projectName: 'FAQ',
+  favicon: 'https://cdn.g-works.eu/img/gworks/logo.png',
+  organizationName: 'GWorks',
+  projectName: 'Docs',
   i18n: {
     defaultLocale: 'de',
     locales: ['de', 'en'],
@@ -61,7 +61,7 @@ module.exports = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: 'rgb(134, 37, 194)',
           },
         ],
       },
@@ -77,10 +77,10 @@ module.exports = {
       anonymizeIP: true,
     },
     navbar: {
-      title: 'PuhHosting FAQ',
+      title: 'GWorks Docs',
       logo: {
-        alt: 'PuhHosting Logo',
-        src: 'https://cdn.puh.hosting/puhhosting/Logo/App.png',
+        alt: 'GWorks Logo',
+        src: 'https://cdn.g-works.eu/img/gworks/logo.png',
       },
       items: [
         {
@@ -94,7 +94,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.puh.hosting',
+          href: 'https://g-works.eu',
           label: 'Website',
           position: 'right',
         },
@@ -107,34 +107,13 @@ module.exports = {
           title: 'Socialmedia',
           items: [
             {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/puh_hosting/',
-            },
-            {
               label: 'Discord',
               href: 'https://discord.gg/w8Syn43',
             },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/PuhHosting',
-            },
           ],
-        },
-        {
-          title: 'Rechtliches',
-          items: [
-            {
-              label: 'Impressum',
-              href: 'https://www.puh.hosting/imprint',
-            },
-            {
-              label: 'Datenschutz',
-              href: 'https://www.puh.hosting/privacy',
-            },
-          ],
-        },
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PuhHosting, made with ❤ and build with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GWorks, made with ❤  in Germany and build with Docusaurus.`,
     },
   },
   presets: [
@@ -144,7 +123,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-              "https://github.com/PuhHosting/FAQ/edit/master/",
+              "https://github.com/GWorks-eu/Docs/edit/master/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
