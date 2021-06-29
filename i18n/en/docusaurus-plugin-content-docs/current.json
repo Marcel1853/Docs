@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.docs": {
+    "message": "docs",
+    "description": "The label for category docs in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Generell": {
+    "message": "Generell",
+    "description": "The label for category Generell in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Account": {
+    "message": "Account",
+    "description": "The label for category Account in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Webspace": {
+    "message": "Webspace",
+    "description": "The label for category Webspace in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Gameserver": {
+    "message": "Gameserver",
+    "description": "The label for category Gameserver in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.MusicBots": {
+    "message": "MusicBots",
+    "description": "The label for category MusicBots in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Datenbanken": {
+    "message": "Datenbanken",
+    "description": "The label for category Datenbanken in sidebar someSidebar"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "PuhHosting FAQ",
+    "description": "The title in the navbar"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.Website": {
+    "message": "Website",
+    "description": "Navbar item with label Website"
+  }
+}
